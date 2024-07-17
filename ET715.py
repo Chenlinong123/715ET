@@ -14,30 +14,28 @@ import streamlit as st
 import numpy as np 
 import pandas as pd 
 import time
-import plotly.express as px 
+
 import shap
 import joblib
-from PIL import Image
+
 from sklearn.ensemble import ExtraTreesRegressor
 from sklearn.preprocessing import StandardScaler
 
 # In[2]:
 
 
-import plotly.figure_factory as ff
-import matplotlib.pyplot as plt
+
 
 
 # In[3]:
 
 
-plt.style.use('default')
+
 
 
 # In[4]:
 
 
-from sklearn.metrics import accuracy_score
 
 
 # In[5]:
